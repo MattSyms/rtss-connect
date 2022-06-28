@@ -1,6 +1,6 @@
 # RTSS Connect
 
-Command line tool to connect to [RTSS](https://en.wikipedia.org/wiki/R%C3%A9seau_de_t%C3%A9l%C3%A9communications_sociosanitaire) network on Linux using [OpenConnect](https://www.infradead.org/openconnect) as VPN client and the [Android Emulator](https://developer.android.com/studio/run/emulator) to run OTP app.
+Command line tool to connect to [RTSS](https://en.wikipedia.org/wiki/R%C3%A9seau_de_t%C3%A9l%C3%A9communications_sociosanitaire) network on Linux using [OpenConnect](https://www.infradead.org/openconnect) as VPN client and the [Android emulator](https://developer.android.com/studio/run/emulator) to run OTP app.
 
 Links :
 
