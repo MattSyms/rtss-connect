@@ -55,7 +55,7 @@ case $action in
     off)
         if $connected
         then
-            # Close VPN connection
+            # Disconnect from VPN
             printf 'Closing VPN connection... \n'
             sudo kill $pid
         fi
@@ -73,10 +73,10 @@ Usage: vpn [OPTION]
 
 Options:
   on        Start Android virtual device and connect to VPN
-            State of the virtual device will not be saved
+            State of virtual device will not be saved
   off       Disconnect from VPN
   otp       Start Android virtual device
-            State of the virtual device will be saved
+            State of virtual device will be saved
 EOF
         ;;
 esac
