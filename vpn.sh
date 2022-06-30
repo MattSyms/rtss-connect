@@ -62,12 +62,12 @@ case $action in
         ;;
 
     otp)
-        # Start Android emulator
+        # Start Android virtual device
         emulator -avd rtss-otp
         ;;
 
     *)
-        # Display help
+        # Print help
         cat << EOF
 Usage: vpn [OPTION]
 
